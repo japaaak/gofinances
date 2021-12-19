@@ -3,10 +3,21 @@
   "displayName": "gofinances",
   "expo": {
     "name": "gofinances",
+    "icon": "./assets/logo.png",
     "slug": "gofinances",
     "version": "1.0.0",
+    "scheme": "gofinances",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.gofinances",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.gofinances",
+      "versionCode": 1
+    }
   }
+  
 }
